@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Clone GitHub Repo') {
             steps {
-                git 'https://github.com/pmathpal1/aws-vpc-code.git'
+                git 'https://github.com/pmathpal1/ready-code.git'
             }
         }
 
